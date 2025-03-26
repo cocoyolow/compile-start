@@ -5,6 +5,7 @@ to run compile and run , put the script in a folder where your scripts are locat
 
 if you are using linux , take the 'script' file . if you are using windows take the start.exe file
 
+if you want to modify my code , i put all the source code in start.c
 
 
 note : im only starting to learn the c language so this is probably far from an optimized code 
