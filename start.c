@@ -42,7 +42,7 @@ char * concatenate(const char *end,const char *start) {
         fprintf(stderr, "Error : memory allocation failed \n"); // error message
         exit(1); //leave the program
     }
-    snprintf(command, needed_size, "gcc %s -o %s && %s", start, end, end);
+    snprintf(command, needed_size, "gcc %s -o %s && ./%s", start, end, end);// remove the ./ if your using windows
     return command;
 }
     
